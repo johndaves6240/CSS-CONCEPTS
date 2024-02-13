@@ -284,11 +284,12 @@ h1{
 /* ANIMATION PART */
 @keyframes slideInLeft{
     from{
-        transform: translateX(-300px); 
+        transform: translateX(-300px);
     }
     
     to{
         transform: translateX(0);
+        opacity: 1;
     }
     
 }
@@ -349,6 +350,7 @@ h1{
 
 .item-4{
     background-color: yellowgreen;
+    opacity: 0; 
 }
 
 .item-5:hover{
